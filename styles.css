@@ -1,0 +1,112 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bgimage.jpg.jpg'); 
+    background-size: fill ;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.property-listings {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.property {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.property img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.login-form {
+    width: 60%;
+    margin: 50px auto;
+    background: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.904);
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form form label,
+.login-form form input,
+.login-form form button {
+    margin: 10px 0;
+}
+
+.login-form form input,
+.login-form form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form p {
+    text-align: center;
+}
+/* Additional styles for property details, contact form, and footer can be added */
+p a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #555;
+}
